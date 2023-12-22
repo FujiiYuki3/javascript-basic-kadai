@@ -4,9 +4,9 @@ for(i=1; i<=16; i++){
     console.log(i + holidays[i-1]);
 }
 
-let num= 0
+let num = 1
 
-while(num < 16){
+while(num <= 16){
     num++;
-    console.log(num + holidays[num-1]);
+    console.log(num-1 + holidays[num-2]);
 }
